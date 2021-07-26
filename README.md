@@ -17,12 +17,16 @@
       { 
         username: 'harry',
         password: '1234',
-        user_picture: 'https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg'
+        user_picture: 'https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg',
+        "created_at": "2021-07-25T23:36:57.454Z",
+        "updated_at": "2021-07-25T23:36:57.454Z"
       },
       { 
         username: 'hermione',
         password: '1234',
-        user_picture: 'https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest?cb=20141230074301'
+        user_picture: 'https://static.wikia.nocookie.net/characters/images/a/a5/Latest_%2810%29.jpg/revision/latest?cb=20141230074301',
+        "created_at": "2021-07-25T23:36:57.454Z",
+        "updated_at": "2021-07-25T23:36:57.454Z"
       }
     ]
     
