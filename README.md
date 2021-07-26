@@ -40,7 +40,7 @@
 
     username (string) (required)
     password (string) (required)
-    user_picture (float) (required)
+    user_picture (string) (required)
 
 </details>
 
