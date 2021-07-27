@@ -138,6 +138,37 @@
 ## Markets
 
 ### GET
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/markets</summary>
+
+    You will recieve an array of market objects.
+
+    Example Result:
+
+    [
+        {
+            "market_id": 1,
+            "market_name": "South Africa"
+        },
+        {
+            "market_id": 2,
+            "market_name": "Middle Africa"
+        },
+        {
+            "market_id": 3,
+            "market_name": "East Africa"
+        },
+        {
+            "market_id": 4,
+            "market_name": "West Africa"
+        },
+        {
+            "market_id": 5,
+            "market_name": "North Africa"
+        }
+    ]
+    
+</details>
 
 ## Need some dummy data?
 
