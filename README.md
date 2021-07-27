@@ -13,6 +13,7 @@
     username (string) (required)
     password (string) (required)
     user_picture (string) (optional)
+    market_id (integer) (required)
 
     You will recieve a registered user object.
 
