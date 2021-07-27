@@ -2,6 +2,48 @@
 
 ## Base URL https://buildweekproject.herokuapp.com
 
+## Auth
+
+### POST (Register)
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/auth/register</summary>
+
+    Body Requirements:
+
+    username (string) (required)
+    password (string) (required)
+    user_picture (string) (optional)
+
+    You will recieve a registered user object.
+
+    Example Result:
+
+    { 
+        "user_id": 3,
+        "username": "neville",
+        "password": "$2a$08$eVblG7WByjvUTGkXnJVQKOD2E9w34DV1I0MDJ9CTlLfkpCu/UOAju"
+    }
+</details>
+
+### POST (Login)
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/auth/login</summary>
+
+    Body Requirements:
+
+    username (string) (required)
+    password (string) (required)
+
+    You will recieve a welcome back message with the user's token.
+
+    Example Result:
+
+    {
+        "message": "neville is back!",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWJqZWN0IjozLCJ1c2VybmFtZSI6Im5ldmlsbGUiLCJpYXQiOjE2MjczMTgyNzcsImV4cCI6MTYyNzQwNDY3N30.-fR-iAg5RggE9HpWAScdHxlxwknxw7wx0nMxGgQbqpI"
+    }
+</details>
+
 ## Users
 
 ### GET
