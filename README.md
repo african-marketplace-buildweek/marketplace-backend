@@ -21,7 +21,8 @@
     { 
         "user_id": 3,
         "username": "neville",
-        "password": "$2a$08$eVblG7WByjvUTGkXnJVQKOD2E9w34DV1I0MDJ9CTlLfkpCu/UOAju"
+        "password": "$2a$08$eVblG7WByjvUTGkXnJVQKOD2E9w34DV1I0MDJ9CTlLfkpCu/UOAju",
+        "market_id": 3
     }
 </details>
 
@@ -142,3 +143,17 @@
 
 https://buildweekproject.herokuapp.com/api/users/userDummyData
 https://buildweekproject.herokuapp.com/api/items/itemDummyData
+
+## Market Legend
+
+Each market_id corresponds to a different region in Africa:
+
+1 = South Africa
+
+2 = Middle Africa
+
+3 = East Africa
+
+4 = West Africa
+
+5 = North Africa
