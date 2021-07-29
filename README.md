@@ -88,6 +88,50 @@
 
 </details>
 
+### PUT
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/users/:id</summary>
+
+    Body Update Options:
+
+    username (string)
+    password (string)
+    user_picture (string)
+    market_id (string)
+
+    You will recieve a an updated user object.
+
+    Example Result:
+
+    {
+        "user_id": 2,
+        "username": "barry",
+        "user_picture": "picture.url",
+        "market_id": 1
+    }
+
+</details>
+
+### DELETE
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/users/:id</summary>
+
+    You will recieve an object containing data from the deleted user.
+
+    Example Result:
+
+    {
+        "user_id": 1,
+        "username": "harry",
+        "password": "1234",
+        "user_picture": "https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg",
+        "created_at": "2021-07-29T03:14:40.713Z",
+        "updated_at": "2021-07-29T03:14:40.713Z",
+        "market_id": 1
+    }
+    
+</details>
+
 
 ## Items
 
@@ -133,8 +177,49 @@
 </details>
 
 ### PUT
+### PUT
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/items/:id</summary>
+
+    Item Update Options:
+
+    item_name (string)
+    item_category (string)
+    item_price (float)
+    item_description (string)
+
+    You will recieve a an updated item object.
+
+    Example Result:
+
+    {
+        "item_id": 2,
+        "item_name": "Eggs",
+        "item_category": "Animal Products",
+        "item_price": 3000,
+        "item_description": "Fresh, organic, cage-free eggs"
+    }
+
+</details>
 
 ### DELETE
+### DELETE
+<details>
+    <summary>https://buildweekproject.herokuapp.com/api/items/:id</summary>
+
+    You will recieve an object containing data from the deleted item.
+
+    Example Result:
+
+    {
+        "item_id": 1,
+        "item_name": "Eggs",
+        "item_category": "Animal Products",
+        "item_price": 2,
+        "item_description": "Fresh, organic, cage-free eggs"
+    }
+    
+</details>
 
 ## Markets
 
