@@ -23,7 +23,6 @@
         "user_id": 3,
         "username": "neville",
         "password": "$2a$08$eVblG7WByjvUTGkXnJVQKOD2E9w34DV1I0MDJ9CTlLfkpCu/UOAju",
-        "market_id": 3
     }
 </details>
 
@@ -97,7 +96,6 @@
     username (string)
     password (string)
     user_picture (string)
-    market_id (string)
 
     You will recieve a an updated user object.
 
@@ -107,7 +105,6 @@
         "user_id": 2,
         "username": "barry",
         "user_picture": "picture.url",
-        "market_id": 1
     }
 
 </details>
@@ -127,7 +124,6 @@
         "user_picture": "https://upload.wikimedia.org/wikipedia/en/d/d7/Harry_Potter_character_poster.jpg",
         "created_at": "2021-07-29T03:14:40.713Z",
         "updated_at": "2021-07-29T03:14:40.713Z",
-        "market_id": 1
     }
     
 </details>
@@ -150,6 +146,7 @@
             item_category: 'Animal Products',
             item_price: 2,
             item_description: 'Fresh, organic, cage-free eggs',
+            market_id: 1
         },
         {
             item_id: 2,
@@ -157,6 +154,7 @@
             item_category: 'Animal Products',
             item_price: 8.50,
             item_description: 'Fresh, organic, cage-free ham',
+            market_id: 1
         }
     ]
 
@@ -173,6 +171,7 @@
     item_category (string) (required)
     item_price (float) (required)
     item_description (string) (required)
+    market_id (integer) (required)
 
 </details>
 
@@ -186,17 +185,19 @@
     item_category (string)
     item_price (float)
     item_description (string)
+    market_id (integer)
 
     You will recieve a an updated item object.
 
     Example Result:
 
     {
-        "item_id": 2,
-        "item_name": "Eggs",
-        "item_category": "Animal Products",
-        "item_price": 3000,
-        "item_description": "Fresh, organic, cage-free eggs"
+        item_id: 2,
+        item_name: Eggs,
+        item_category: Animal Products,
+        item_price: 3000,
+        item_description: Fresh, organic, cage-free eggs,
+        market_id: 1
     }
 
 </details>
@@ -210,11 +211,12 @@
     Example Result:
 
     {
-        "item_id": 1,
-        "item_name": "Eggs",
-        "item_category": "Animal Products",
-        "item_price": 2,
-        "item_description": "Fresh, organic, cage-free eggs"
+        item_id: 1,
+        item_name: Eggs,
+        item_category: Animal Products,
+        item_price: 2,
+        item_description: Fresh, organic, cage-free eggs,
+        market_id: 1
     }
     
 </details>
@@ -231,24 +233,24 @@
 
     [
         {
-            "market_id": 1,
-            "market_name": "South Africa"
+            market_id: 1,
+            market_name: South Africa
         },
         {
-            "market_id": 2,
-            "market_name": "Middle Africa"
+            market_id: 2,
+            market_name: Middle Africa
         },
         {
-            "market_id": 3,
-            "market_name": "East Africa"
+            market_id: 3,
+            market_name: East Africa
         },
         {
-            "market_id": 4,
-            "market_name": "West Africa"
+            market_id: 4,
+            market_name: West Africa
         },
         {
-            "market_id": 5,
-            "market_name": "North Africa"
+            market_id: 5,
+            market_name: North Africa
         }
     ]
     
