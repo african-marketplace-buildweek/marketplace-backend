@@ -177,7 +177,6 @@
 </details>
 
 ### PUT
-### PUT
 <details>
     <summary>https://buildweekproject.herokuapp.com/api/items/:id</summary>
 
@@ -202,7 +201,6 @@
 
 </details>
 
-### DELETE
 ### DELETE
 <details>
     <summary>https://buildweekproject.herokuapp.com/api/items/:id</summary>
